@@ -1,0 +1,56 @@
+  /* Name:Ransford Addai
+     Training ID: 32524
+     Week Two(2) Assingnment */
+
+
+
+/* Applying background colors to header and footer */
+.header, .footer {
+  background-color: #3498db;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Adding a border around the content section */
+.content {
+  border: 3px solid #e7c83c;
+  background-color: #ecf0f1;
+  display: flex;
+}
+
+/* Creating boxes and applying padding, margin, and border */
+.box-odd, .box-even {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #2ecc71;
+  text-align: center;
+}
+
+/* Applying different font families using classes */
+.box-odd {
+  font-family: 'Arial', sans-serif;
+}
+
+.box-even {
+  font-family: 'Georgia', serif;
+}
+
+/* Applying Flexbox for layout */
+.content {
+  display: flex;
+}
+
+/* Applying CSS Grid for the grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.grid-item {
+  border: 1px solid #333;
+  padding-top: 50px;
+  text-align: center;
+  height: 100px;
+}
